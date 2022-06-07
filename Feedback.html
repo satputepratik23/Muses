@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Feedback</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col justify-content-center">
+			<div class="card" style="max-width: 1055px;">
+			  <h5 class="card-header text-center">Feeback</h5>
+				<div class="card-body">
+					<form>
+						<div class="row"> 
+							<div class="col">
+								<label for="comment"> Your Feedback: </label>
+									<textarea rows="5" class="form-control rcorner"> </textarea>
+								</div>
+						</div>
+						<br>
+						<div class="row"> 
+							<div class="col-md-6">
+								<label for="comment"> Rate Us: </label>
+								<input type="range" min="1" max="10" value="5"  id="myRange" class="custom-range" style="border-radius:10px;">
+							</div>
+							<div class="col-md-6">
+								<label for="comment"> Your Rating:  <span id="Demo"> </span> </label>
+							</div>
+						</div>
+						<br>
+						<div class="row"> 
+							<div class="col-md-4 col-md-offset-4"></div>
+							<div class="col-md-6 col-md-offset-6">
+								<button type="button" class="btn btn-primary btn-lg btn-block rcorner">Submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+var slider=document.getElementById("myRange");
+var output=document.getElementById("Demo");
+output.innerHTML=slider.value;
+slider.oninput=function(){
+						output.innerHTML=this.value;
+						}
+</script>
+
+
+</body>
+</html>
+
+					

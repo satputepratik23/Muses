@@ -1,0 +1,48 @@
+.jumbotron{
+	font-family: 'Signika', sans-serif;
+	background-color:#000000;
+	margin-bottom:0;
+	letter-spacing:.5rem;
+}
+
+.rcorner{
+	border-radius:25px;
+	border:2px solid lightblue;
+	/*background-image:linear-gradient(to bottom right,red,yellow);*/
+	padding:10px;
+}
+
+
+/*Navigation */
+.navbar{
+	/*text-transform:uppercase;*/
+	font-weight:800;
+	font-size:1.2rem; /*1rem=16px*/
+	letter-spacing:.1rem;
+	background:rgba(0,0,0,1)!important;
+}
+
+.navbar-brand img{
+	height:2rem; /* half of the size of font of nav listitems */
+}
+.navbar-nav li{
+	padding-right:.7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color:white;
+	padding-top:.8rem;
+	font-family: 'Signika', sans-serif;
+}
+.navbar-dark .navbar-nav .nav-link.active,.navbar-dark .navbar-nav .nav-link:hover{
+	color:#2ed199;
+}
+
+/*Login-Modal */
+.blur-modal{
+	background-color:black;
+	color:white;
+/*	-webkit-transition:0.5s;
+	overflow:auto;
+	transform:scale(1);
+	opacity:1;*/
+}
