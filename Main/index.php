@@ -5,6 +5,10 @@
  include('Image-Slider.php');
  ?>
  
+
+ <?php 
+	echo "Helo pRatik here!"
+ ?>
  
  <!---Jumbotron---->
 <div class="jumbotron jumbotron-fluid" style="font-family: 'Signika', sans-serif; background-color:#000000;margin-bottom:0;">
