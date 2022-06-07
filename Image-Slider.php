@@ -21,13 +21,13 @@
 <!--The Slideshow-->
 <div class="carousel-inner">
 	<div class="carousel-item active">
-		<img src="./Images/4.jpg" alt="img 1" class="img-fluid">
+		<img src="../Images/4.jpg" alt="img 1" class="img-fluid">
 	</div>
 	<div class="carousel-item">
-		<img src="./Images/3.jpg" alt="img 2" class="img-fluid">
+		<img src="../Images/3.jpg" alt="img 2" class="img-fluid">
 	</div>
 	<div class="carousel-item">
-		<img src="./Images/2.jpg" alt="img 3" class="img-fluid">
+		<img src="../Images/2.jpg" alt="img 3" class="img-fluid">
 	</div>
 </div>
 
